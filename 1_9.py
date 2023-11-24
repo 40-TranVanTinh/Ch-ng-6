@@ -1,0 +1,6 @@
+lai_suat=float(input("Lãi suất 1 năm (%):"))
+so_tien=int(input("Số tiền gửi:"))
+so_thang=int(input("Số tháng gửi:"))
+tien_lai=(so_tien*so_thang)*(lai_suat/100/12)
+print("Tiền lãi = ",tien_lai)
+print("Tiền vốn + Tiền lãi = ",so_tien,"+",tien_lai,"=",so_tien+tien_lai)

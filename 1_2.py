@@ -1,0 +1,6 @@
+x=int(input("x= "))
+y=int(input("y= "))
+print("Tong x+y = ",x+y)
+print("Hieu x-y = ",x-y)
+print("Tich x*y = ",x*y)
+print("Thuong x/y = ",x/y)
